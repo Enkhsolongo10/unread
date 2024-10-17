@@ -1,79 +1,79 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'SF Display', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "SF Display", sans-serif;
 }
 .body {
-    background-color: #fafafa;
+  /* background-color: #fafafa; */
+  background-color: azure;
 }
-.hero{
-    height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgb(0, 0, 0)),
+.hero {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgb(0, 0, 0)),
     url("https://unread.today/files/007afc64-288a-4208-b9d7-3eda84011c1d/1451f11e03da76480966b636a622119a.jpg");
-    background-position:top;
-    height: 750px;
+  background-position: top;
+  height: 750px;
 }
-nav{
-    height: 100px;
-    padding-left: 300px;
-    padding-right: 300px;
-    display: flex;
-    justify-content: space-between;
+nav {
+  height: 100px;
+  padding-left: 300px;
+  padding-right: 300px;
+  display: flex;
+  justify-content: space-between;
 }
 .head {
-    display: flex;
-    gap: 100px;
+  display: flex;
+  gap: 100px;
 }
 .menu {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 .unread-logo {
-    width: 138px;
-    height: 15px;
-    margin-top: 30px;
+  width: 138px;
+  height: 15px;
+  margin-top: 30px;
 }
 .head-text {
-    display: flex;
-    text-align: space-between;
+  display: flex;
+  text-align: space-between;
 }
-    
+
 .hero-content {
-    display: flex;
-    gap: 50px;
-    color: white;
-    width: 1116px;
-    height: 750px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top:100px;
+  display: flex;
+  gap: 50px;
+  color: white;
+  width: 1116px;
+  height: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
 }
 .hero-description {
-    margin-top: 100px;
-  
+  margin-top: 100px;
 }
 .hero-content h1 {
-    -webkit-text-stroke: 1px white;
-    color: transparent;
-    text-transform: uppercase;
-    font-weight: 900;
-    font-size: 35px;
+  -webkit-text-stroke: 1px white;
+  color: transparent;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 35px;
 }
 .hero-content h2 {
-    font-size: 35px;
-    font-weight: 900;
-    display: flex; 
-    width: 533px;
-    height: 43px;
+  font-size: 35px;
+  font-weight: 900;
+  display: flex;
+  width: 533px;
+  height: 43px;
 }
 .image {
-    width: 446.4px;
-    height: 446.4px;
-    background-size: 150%;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 20px;
-    transition: all 1s ease;
+  width: 446.4px;
+  height: 446.4px;
+  background-size: 150%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  transition: all 1s ease;
 }
 .animation-zoom:hover {
-    background-size: 170%;
+  background-size: 170%;
 }
