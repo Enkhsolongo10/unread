@@ -12,7 +12,6 @@
   background-size: 80%;
 }
 .head-container {
-  background-color: black;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -30,7 +29,6 @@
   margin-left: 50px;
 }
 .inside-box {
-  background-color: burlywood;
   width: 1116px;
   height: 40px;
   display: flex;
@@ -88,7 +86,6 @@
   margin-top: 40px;
 }
 .hero-content {
-  background-color: rgb(58, 63, 63);
   width: 1116px;
   height: 446.4px;
   display: flex;
@@ -110,7 +107,6 @@
 .hero-text {
   display: flex;
   flex-direction: column;
-  background-color: wheat;
   padding-right: 40px;
 }
 .blink {
@@ -161,7 +157,6 @@
 
 .main {
   height: 327px;
-  background-color: rgb(153, 153, 206);
   margin-top: -80px;
   display: flex;
   justify-content: center;
@@ -175,11 +170,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 .choice-frame {
   width: 1056px;
   height: 30px;
-  background-color: rgb(61, 98, 86);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -206,7 +201,6 @@
 .inside-frame-body {
   width: 1375px;
   height: 477.36px;
-  background-color: gray;
 }
 .images {
   display: flex;
@@ -220,14 +214,12 @@
 
 .figure {
   height: 1588px;
-  background-color: rgb(82, 82, 117);
   display: flex;
   justify-content: center;
 }
 .figure-content {
   width: 1186px;
   height: 1588px;
-  background-color: rgb(201, 191, 191);
 }
 .articles {
   display: flex;
@@ -248,7 +240,6 @@
   justify-content: end;
 }
 .people {
-  background-color: rgb(225, 217, 158);
   width: 760px;
   height: 40px;
   display: flex;
@@ -276,7 +267,6 @@
 }
 
 .figure2 {
-  background-color: rgb(68, 79, 93);
   height: 1400.78px;
   display: flex;
   justify-content: center;
@@ -326,7 +316,6 @@
   align-items: center;
 }
 .figure2-body {
-  background-color: rgb(92, 135, 146);
   width: 1186px;
   height: 633.9px;
   margin-top: 20px;
