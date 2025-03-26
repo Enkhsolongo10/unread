@@ -5,12 +5,77 @@
 }
 
 .hero {
-  height: 70vh;
+  height: 630px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgb(0, 0, 0)),
     url("https://unread.today/files/007afc64-288a-4208-b9d7-3eda84011c1d/1451f11e03da76480966b636a622119a.jpg");
-  background-position: center 1000%;
+  background-position: center;
   background-size: 80%;
 }
+.header {
+  display: flex;
+  align-items: center;
+  height: 90px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.menu {
+  width: 19px;
+  height: 19px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.mainlogo {
+  width: 138px;
+  height: 18px;
+}
+.span {
+  width: 1px;
+  height: 18px;
+}
+.header-input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-size: 11.6px;
+  color: #ffffff;
+  font-weight: 400;
+  opacity: 0.8;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.headertext1 {
+  font-size: 11.6px;
+  color: #ffffff;
+  font-weight: 400;
+  opacity: 0.5;
+}
+.headertext2 {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+}
+.headertext3 {
+  width: 193px;
+  height: 110px;
+}
+
+
+
+
+/* .menu 
 .head-container {
   display: flex;
   align-items: center;
@@ -156,6 +221,7 @@
 }
 
 .main {
+  margin-top: 200px;
   height: 327px;
   margin-top: -80px;
   display: flex;
@@ -339,4 +405,4 @@
 .prize-image {
   width: 264.75px;
   height: 271.93px;
-}
+} */ 
